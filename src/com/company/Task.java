@@ -1,5 +1,6 @@
 package com.company;
 
+
 public class Task {
     int Number;
     String description;
@@ -12,6 +13,10 @@ public class Task {
         this.status = status;
         this.daysInProcessing = daysInProcessing;
     }
+
+
+
+
 
     @Override
     public String toString() {
@@ -54,4 +59,6 @@ public class Task {
     public void setDaysInProcessing(int daysInProcessing) {
         this.daysInProcessing = daysInProcessing;
     }
+
+
 }
